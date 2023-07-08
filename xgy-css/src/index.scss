@@ -1,0 +1,13 @@
+.height-200px {
+  height: 200px;
+}
+.bg-red-deep {
+  background: red;
+}
+.button {
+  padding: 5px 10px;
+  background: blue;
+  &.rounded-5px {
+    border-radius: 5px;
+  }
+}

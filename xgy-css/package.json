@@ -1,0 +1,16 @@
+{
+  "name": "yx-css-demo",
+  "version": "1.0.1",
+  "description": "",
+  "main": "dist/index.css",
+  "scripts": {
+    "build": "sass src/index.scss dist/index.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "yannxu",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.63.6"
+  }
+}
