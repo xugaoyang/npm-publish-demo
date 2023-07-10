@@ -23,9 +23,12 @@ yarn add sass -D
 }
 ```
 
-4. npm login
-5. npm publish
-6. 项目调用
+4. `yarn build`
+
+5. npm login
+6. npm publish
+7. 项目调用
+
 ```bash
 yarn add <package-name>
 ```
