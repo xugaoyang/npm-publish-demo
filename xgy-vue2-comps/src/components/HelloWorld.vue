@@ -6,6 +6,7 @@
 
 <script>
 export default {
+  name: 'HelloWorld',
   methods: {
     handleClick() {
       console.log('按钮被点击了')
