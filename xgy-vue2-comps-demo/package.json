@@ -1,12 +1,14 @@
 {
-  "name": "vue2-demo",
-  "version": "0.1.0",
-  "private": true,
+  "name": "xgy-vue2-comps-demo",
+  "version": "0.1.4",
+  "private": false,
+  "main": "src/element-comps/index.js",
+  "description": "",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "lib": "vue-cli-service build --target lib --name customButton --dest lib src/element-comps/index.js"
+    "lib": "vue-cli-service build --target lib --name customEle --dest customEle src/element-comps/index.js"
   },
   "dependencies": {
     "core-js": "^2.6.5",
