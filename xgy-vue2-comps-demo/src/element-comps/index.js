@@ -1,8 +1,8 @@
 import Vue from 'vue'
-import ElementUI from 'element-ui'
+import { Button } from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 
-Vue.use(ElementUI)
+Vue.use(Button)
 
 const requireComponents = require.context('./', true, /\.vue$/)
 
@@ -18,5 +18,5 @@ if (typeof window !== 'undefined' && window.Vue) {
   install(window.Vue) // window中有Vue时去install()
 }
 export default {
-  install
+  install,
 }
